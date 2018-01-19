@@ -1,0 +1,27 @@
+{
+  "name": "node-blog",
+  "version": "1.0.0",
+  "description": "A personal blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericdudley/NodeBlog.git"
+  },
+  "author": "Eric Dudley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericdudley/NodeBlog/issues"
+  },
+  "homepage": "https://github.com/ericdudley/NodeBlog#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11",
+    "realm": "^2.2.4"
+  }
+}
